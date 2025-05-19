@@ -1,0 +1,70 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar */
+#sidebar-wrapper {
+    min-width: 250px;
+    max-width: 250px;
+    background-color: #1e2125;
+    padding-top: 20px;
+    position: fixed;
+    height: 100%;
+}
+
+#sidebar-wrapper .list-group-item {
+    background-color: #1e2125;
+    color: #c9c9c9;
+    border: none;
+    padding: 15px;
+    font-size: 1.1em;
+}
+
+#sidebar-wrapper .list-group-item:hover {
+    background-color: #343a40;
+    color: #fff;
+}
+
+#sidebar-wrapper .list-group-item.active {
+    background-color: #ff5900;
+    color: white;
+    font-weight: bold;
+}
+
+#page-content-wrapper {
+    margin-left: 250px; /* Espacio para el sidebar */
+    flex: 1; /* Hacer que el contenido ocupe el resto del espacio */
+    padding: 20px;
+    overflow-x: hidden; /* Evitar el desplazamiento horizontal */
+}
+
+.table {
+    width: 100%; /* Hacer que la tabla ocupe el 100% del contenedor */
+    margin: auto; /* Centrar la tabla */
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Margen superior para separar de otros elementos */
+}
+
+@media (max-width: 768px) {
+    #sidebar-wrapper {
+        display: none; /* Ocultar sidebar en pantallas pequeñas */
+    }
+
+    #page-content-wrapper {
+        margin-left: 0; /* Eliminar margen izquierdo */
+    }
+
+    .card {
+        max-width: 100%; /* Asegurar que las tarjetas no excedan el 100% */
+    }
+}
