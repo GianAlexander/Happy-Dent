@@ -6,10 +6,11 @@ Este sistema ha sido desarrollado para gestionar eficientemente el inventario de
 
 # 🔧 Tecnologías Utilizadas
 
-* **Java EE** con Servlets
-* **JSP (JavaServer Pages)** para la capa de presentación
-* **Maven** como herramienta de construcción y gestión de dependencias
-* **MVC** como patrón de diseño arquitectónico
+- **Java EE** con Servlets
+- **JSP (JavaServer Pages)** para la capa de presentación
+- **Maven** como herramienta de construcción y gestión de dependencias
+- **MVC** como patrón de diseño arquitectónico
+- **SQL Server** como sistema de gestión de base de datos
 
 ---
 
@@ -59,12 +60,14 @@ Happy-Dent [CRUD]
 
 # 📌 Funcionalidades Principales
 
-* ✅ Registrar nuevos productos
-* 🔍 Consultar productos existentes
-* ✏️ Actualizar información de productos
-* ❌ Eliminar productos
-* 📦 Gestión del stock y control de inventario
-* 💰 Gestión de operaciones de compra y venta
+- ✅ Registrar nuevos productos
+- 🔍 Consultar productos existentes
+- 🖥 Consultar proveedores
+- ✏️ Actualizar información de productos
+- ❌ Eliminar productos
+- 📦 Gestión del stock y control de inventario
+- 💰 Gestión de operaciones de compra y venta
+- 🩺 Visualización de la ficha médica de los pacientes
 
 ---
 
@@ -80,9 +83,9 @@ Happy-Dent [CRUD]
 
 # 🔒 Seguridad y Validaciones
 
-* Validación de entradas desde formularios JSP
-* Manejo de errores y excepciones en Servlets
-* Conexión segura con la base de datos
+- Validación de entradas desde formularios JSP
+- Manejo de errores y excepciones en Servlets
+- Conexión segura con la base de datos
 
 ---
 
@@ -94,7 +97,3 @@ Happy-Dent [CRUD]
 4. Acceder a `http://localhost:8080/Happy-Dent` desde el navegador
 
 ---
-
-> Desarrollado como parte de una solución integral para mejorar la gestión de inventarios en boticas.
-
-has un archivo .md para descargar
